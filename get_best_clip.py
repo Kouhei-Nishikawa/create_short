@@ -1,6 +1,6 @@
 from clipsai import ClipFinder, Transcriber
 
-def get_best_clips(video_path: str, transcript: str, max_clips=10, clip_length=60) -> list:
+def get_best_clips(video_path: str, max_clips=10, clip_length=60) -> list:
     """盛り上がり部分の 1 分間の動画クリップを複数抽出"""
 
     transcriber = Transcriber()

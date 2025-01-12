@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+yt-dlp
+clipsai
+nltk
+ffmpeg-python
+zipfile36
+whisperx
